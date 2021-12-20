@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="myFunction()">
+    <div id="loading">
+    </div>
+    <header>
+        <div class="container">
+            <div class="navBar">
+                <div class="logo">
+                    <img src="./logo.png" alt="logo">
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./cart.png" alt="cart">
+                <img src="./menu.png" alt="cart" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2 header-post-image-section">
+                    <h1>Give Your Workout <br> A New Style</h1>
+                    <p class="header-description">
+                        Success isn't always about greatness.
+                        <br> 
+                        It's about
+                        consistency. 
+                        <br>
+                        Consistent hard work gains success.
+                        Greatness will come.
+                        Success isn't always about greatness.
+                        <br> 
+                        It's about
+                        consistency. 
+                        <br>
+                        Consistent hard work gains success.
+                        Greatness will come.
+                    </p>
+                    <a href="" class="btn">Explore Now <span class="explore_now_arrow">&#8594;</span></a>
+                </div>
+                <div class="col-2 header-post-image-section">
+                    <img src="./image2.png" alt="image1">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--featured categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./category-1.png">
+                </div>
+                <div class="col-3">
+                    <img src="./category-2.png">
+                </div>
+                <div class="col-3">
+                    <img src="./category-3.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--featured products-->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./product-1.png" alt="">
+                <h4>WWE Premium T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-2.png" alt="">
+                <h4>Roman Reigns T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$99.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-3.png" alt="">
+                <h4>Roman Reigns T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$350.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-4.png" alt="">
+                <h4>Navy Pier T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+        </div>
+
+        <!--latest products-->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./product-5.jpeg" alt="">
+                <h4>Denim Jeans Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-6.jpeg" alt="">
+                <h4>Gucci Blue Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$5999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-7.jpg" alt="">
+                <h4>White Joggars</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-8.jpg" alt="">
+                <h4>Nike Jogging Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-9.jpg" alt="">
+                <h4>White Joggars</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-10.jpg" alt="">
+                <h4>Nike Jogging Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-11.jpg" alt="">
+                <h4>White Joggars</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./product-12.jpg" alt="">
+                <h4>Nike Jogging Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!--offer-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./exclusive.png" alt="exclusive" class="offer offer-img">
+                </div>
+                <div class="col-2">
+                    <p>
+                        Exclusively Available on MechStore
+                    </p> 
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        The Mi Band 4 features a 39.9% larger (than Mi Band 3) 
+                        Amoled color full-touch display with adjustable 
+                        brightness, so everything is clear as can be.
+                    </small> <br>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--testimonial-->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        This site is as stylish as Mr.AB himself. <br>
+                        Being the most active and very first user for 
+                        the site, I can say that this site is so good 
+                        on reviewing their products and delivery.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="./user-1.jpg" alt="user-1">
+                    <h3>Gulsim Ali</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        This site is as stylish as Mr.AB himself. <br>
+                        Being the most active and very first user for 
+                        the site, I can say that this site is so good 
+                        on reviewing their products and delivery.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="./user-2.jpg" alt="user-2">
+                    <h3>Esra Belgic</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        This site is as stylish as Mr.AB himself. <br>
+                        Being the most active and very first user for 
+                        the site, I can say that this site is so good 
+                        on reviewing their products and delivery.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="./user-3.jpg" alt="user-3">
+                    <h3>Emel Dede</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./brand-1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./brand-2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./brand-3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./brand-4.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./brand-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>
+                        Download App for Android and ios mobile phone.
+                    </p>
+                    <div class="app-logo">
+                        <img src="./play-store.png" alt="play-store">
+                        <img src="./app-store.png" alt="app-store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./logo.png" alt="">
+                    <p>
+                        Our Purpose Is To Sustainably Make The Pleasure And
+                        Benefits Of Sports Accessible To The Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Mr. AB | <a class="mail" href="mailto:abdurjoy2001@gmail.com">abdurjoy2001@gmail.com</a></p>
+        </div>
+    </div>
+
+
+    <!--script for menu toggle-->
+    <script>
+        let loading = document.getElementById('loading');
+        function myFunction() {
+            loading.style.display = "none";
+        }
+
+        function myFunction2() {
+            loading.style.display = "visible";
+        }
+
+
+        var menuItem = document.getElementById("menu-items");
+        menuItem.style.maxHeight = "0px";
+        function menutoggle() {
+            if(menuItem.style.maxHeight == "0px") {
+                menuItem.style.maxHeight = "200px";
+            } else {
+                menuItem.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
